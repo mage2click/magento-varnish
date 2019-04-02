@@ -1,9 +1,9 @@
-FROM shkoliar/varnish
+FROM 	shkoliar/varnish:3.6
 
-LABEL maintainer="Mage2click" \
-      description="Magento 2 varnish docker container"
+LABEL 	maintainer="Mage2click" \
+      	description="Magento 2 varnish docker container"
 
-ENV VCL_CONFIG /data/varnish.vcl
-ENV VARNISHD_PARAMS -p default_ttl=3600 -p default_grace=3600 -p feature=+esi_ignore_https -p feature=+esi_disable_xml_check
+ENV 	VCL_CONFIG /data/varnish.vcl
+ENV 	VARNISHD_PARAMS -p default_ttl=3600 -p default_grace=3600 -p feature=+esi_ignore_https -p feature=+esi_disable_xml_check
 
-ADD conf/varnish.vcl /data/varnish.vcl
+ADD 	conf/varnish.vcl /data/varnish.vcl
