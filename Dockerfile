@@ -1,5 +1,6 @@
 FROM 	shkoliar/varnish:3.6
 
+
 LABEL 	maintainer="Mage2click" \
       	description="Magento 2 varnish docker container"
 

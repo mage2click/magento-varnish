@@ -1,1 +1,1 @@
-# Magento 2 Varnish Docker container 
+# Magento 2 Varnish Docker image 
