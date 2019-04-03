@@ -1,4 +1,4 @@
-FROM 	shkoliar/varnish:3.6
+FROM 	shkoliar/varnish:4.1
 
 LABEL 	maintainer="Dmitry Shkoliar @shkoliar"
 
